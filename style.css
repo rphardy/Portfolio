@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    display: block;
+    background: navy;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+footer {
+    display: block;
+    background: navy;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: 'Architects Daughter', cursive;
+}
+h1 {
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Architects Daughter', cursive;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h2 {
+    grid-area: h2;
+    display: block;
+    font-size:x-large;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#h21 {
+    color: yellow;
+} 
+#h22 {
+    color: red;
+}
+h3 {
+    grid-area: h3;
+    display: block;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+#h31 {
+    color: yellow;
+}
+#h32 {
+    color:red;
+}
+p {
+    display: block;
+    text-align:center;
+    font-family: 'Roboto', sans-serif;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p.album {
+    grid-area:text;
+    display:block;
+    color: white;
+    text-align:left;
+    justify-self:start;
+}
+img.albumimg {
+    grid-area:image;
+    object-fit:contain;
+    justify-self:start;
+    height:225px;
+    width:225px;
+  }
+
+img.icon1{
+    grid-area: icon1;
+    object-fit:contain;
+    justify-self:center;
+    height:90px;
+    width:110px;
+}
+img.icon2{
+    grid-area: icon2;
+    object-fit:contain;
+    justify-self:center;
+    height:90px;
+    width:110px;
+}
+img.icon3{
+    grid-area: icon3;
+    object-fit:contain;
+    justify-self:center;
+    height:90px;
+    width:110px;
+}
+img.icon4{
+    grid-area: icon4;
+    object-fit:contain;
+    justify-self:center;
+    height:90px;
+    width:110px;
+}
+img.icon5{
+    grid-area: icon5;
+    object-fit:contain;
+    justify-self:center;
+    height:90px;
+    width:110px;
+}
+
+section.albuminfo {
+    display:grid;
+    grid-template-areas: 
+    'h2 h2 h2 image image'
+    'h3 h3 h3 image image'
+    'text text text image image'  
+    'icon1 icon2 icon3 icon4 icon5';
+    grid-gap: 10px;
+    background:navy;
+    margin-top: 5%;
+    margin-left:20%;
+    margin-bottom:5%;
+    margin-right:20%;
+    padding:10px;
+}
