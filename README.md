@@ -1,2 +1,3 @@
 # Portfolio
-my personal portfolio of data analytics work
+my personal portfolio of data analytics work.
+Begun during INCO
