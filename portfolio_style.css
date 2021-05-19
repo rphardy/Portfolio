@@ -3,7 +3,7 @@
 
 header {
     display: block;
-    background: rgba(160, 6, 6, 0.74);
+    background: rgba(122, 3, 3, 0.74);
     text-align: center;
     padding: 20px;
     color: white;
@@ -11,7 +11,7 @@ header {
 }
 footer {
     display: block;
-    background: rgba(160, 6, 6, 0.74);
+    background: rgba(122, 3, 3, 0.74);
     text-align: center;
     padding: 20px;
     color: white;
@@ -177,7 +177,7 @@ section.albuminfo {
     padding:10px;
 }
  section.projectframe {
-     background: rgba(160, 6, 6, 0.74);
+     background: rgba(122, 3, 3, 0.74);
      margin-left:10%;
      margin-right:10%;
      padding: 10px;
