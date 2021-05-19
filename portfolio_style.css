@@ -125,65 +125,16 @@ p.album {
     text-align:left;
     justify-self:start;
 }
-img.albumimg {
-    grid-area:image;
+img.doge {
     object-fit:contain;
-    justify-self:start;
+    padding: 10px;
     height:225px;
-    width:225px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
   }
 
-img.icon1{
-    grid-area: icon1;
-    object-fit:contain;
-    justify-self:center;
-    height:90px;
-    width:110px;
-}
-img.icon2{
-    grid-area: icon2;
-    object-fit:contain;
-    justify-self:center;
-    height:90px;
-    width:110px;
-}
-img.icon3{
-    grid-area: icon3;
-    object-fit:contain;
-    justify-self:center;
-    height:90px;
-    width:110px;
-}
-img.icon4{
-    grid-area: icon4;
-    object-fit:contain;
-    justify-self:center;
-    height:90px;
-    width:110px;
-}
-img.icon5{
-    grid-area: icon5;
-    object-fit:contain;
-    justify-self:center;
-    height:90px;
-    width:110px;
-}
-
-section.albuminfo {
-    display:grid;
-    grid-template-areas: 
-    'h2 h2 h2 image image'
-    'h3 h3 h3 image image'
-    'text text text image image'  
-    'icon1 icon2 icon3 icon4 icon5';
-    grid-gap: 10px;
-    background:navy;
-    margin-top: 5%;
-    margin-left:20%;
-    margin-bottom:5%;
-    margin-right:20%;
-    padding:10px;
-}
  section.projectframe {
      background: rgba(122, 3, 3, 0.74);
      margin-left:10%;
