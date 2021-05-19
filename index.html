@@ -4,10 +4,34 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Data Portfolio</title>
-        <link rel="stylesheet" href="portfolio_style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="portfolio_style.css">
     </head>
     <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Data Wrangling</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Shiny App</a>
+                </li>
+              </ul>
+            </div>
+          
+          
+          </nav>
         <header>Richard Hardy</header>
 
         <h1>Welcome to my portfolio!</h1><!-- title & paragraph-->
@@ -18,17 +42,17 @@
         </p>
 
         <section class="projectframe"> <!-- Shiny -->
-            <h2 class="projectheader"> Developing an interactive data Applet</h2>
+            <h2 class="projectheader"> Featured: An interactive data Applet</h2>
             <p id="pshiny"> This project was completed through Johns Hopkins University's Coursera offering in Data Science: Course 9 - Developing Data Products</p>
-            <p id="pshiny"> the dataset can be found in RStudio's library, see https://www.gapminder.org/ for more! </p>
-            <p id="pshiny"> See the <a href="http://rpubs.com/rphardy/app_pitchf">project pitch</a> to learn how to explore the data (or play around with the options below):
+            <p id="pshiny"> the dataset can be found as RStudio's gapminder <a href=" https://CRAN.R-project.org/package=gapminder">package</a> (be sure to see their <a href="https://www.gapminder.org/">site</a> for context!) </p>
+            <p id="pshiny"> See the <a href="http://rpubs.com/rphardy/app_pitchf">application pitch</a> to learn how to explore the data below (or simply play with the slider and country options):
             </p>
             <p id="pshiny"> Inspired by the late, great <a href="https://www.youtube.com/watch?v=hVimVzgtD6w">Hans Rosling</a> of Gapminder
             </p>
             <iframe height="1200" width="100%" frameborder="yes" src="https://rphardy.shinyapps.io/shinyapp/"> </iframe>
         </section>
 
-        <section class="albuminfo"> <!-- Jazz night >= & < Blue Jazz -->
+        <!--<section class="albuminfo">
             <img class="albumimg" src="jazz-night.jpg" alt="Jazz Night">
             <h2 id="h21">Jazz Night</h2>
             <h3 id="h31"> Album release this summer</h3> 
@@ -45,7 +69,7 @@
             <img class="icon3" src="piano.jpg" alt="">
             <img class="icon4" src="saxophone.jpg" alt="">
             <img class="icon5" src="trumpet.jpg" alt="">
-        </section>
+        </section> -->
         
         <footer>See you later!</footer>
     </body>
