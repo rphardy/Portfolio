@@ -104,6 +104,14 @@ p {
     color: white;
 }
 
+#inspo{
+    margin-bottom: 80px;
+}
+
+#shinyquestions {
+    text-align: center;
+}
+
 p.msg {
     margin-left:20%;
     margin-right:20%;
