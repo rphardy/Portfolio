@@ -50,16 +50,33 @@
         </p>
 
         <section class="projectframe"> <!-- Dataset 1 -->
-          <h2 class="projectheader"> Featured Project: Project 1</h2>
-          <p class="pmsg"> This project was completed through Johns Hopkins University's Coursera offering in Data Science</p>
-          <!--  <iframe height="1200" width="100%" frameborder="yes" src="https://rphardy.shinyapps.io/shinyapp/"> </iframe> -->
+          <h2 class="projectheader"> Featured Project: Reproducible Analysis</h2>
+          <p class="prepres"> This project was completed for Johns Hopkins University's Coursera offering in Data Science. It answers the research question...</p>
+          <p class="prepres"> Out of the 50 severe weather events classified by the NOAA, which are the most damaging to health and wealth at the national level (USA)?</p>
+          <section class ="findings">
+            <p class="prepresres"> ANALYSIS RESULTS</p>          
+            <img class="imgrepreshealth" src="healthdamage.png">
+            <p class="fig1text1"> Top 10 injury and fatality totals by weather event type between January 1996 and November 2011, across the USA </p>
+            <p class="fig1text2"> Plot A: Tornadoes, Excessive Heat and (Flash) Floods are the most (deadly) injurious</p>
+            <p class="fig1text3"> Plot B: Displays the same data, on the log scale</p>  
+            <img class="imgrepresproperty" src="propertydamage.png">
+            <p class="fig2text1"> Top 10 crop and property damage costs by weather event type between January 1996 and November 2011 across the USA
+            <p class="fig2text2"> 
+              Floods, Hurricanes and Storm/Tide Surges are the most damaging to property, and Drought is the most damaging to crops.   
+              In general, property damage costs far outweigh crop damage costs
+            </p>
+          </section>
+          <p> This analysis suggests that the US government, if wishing to allocate resources to prevent the greatest damage to population health arising from weather events, should focus on Tornadoes,
+            Flooding, and Excessive Heat. If wishing to allocate resources to prevent the greatest damage to crops and property, they should focus on Drought, Floods, Hurricanes and Storm/Tide surges.
+          </p>
+          <p>See the <a href="reproducibleresearch.html">Reproducible Research tab</a> for the complete analysis completed in RStudio</p>
        </section>
 
         <section class="projectframe"> <!-- Shiny -->
             <h2 class="projectheader"> Featured Project: An interactive data Applet</h2>
             <p class="pmsg" id="inspo"> Inspired by the late, great <a href="https://www.youtube.com/watch?v=hVimVzgtD6w">Hans Rosling</a> of Gapminder
             </p>
-            <p id="pshiny"> This project was completed through Johns Hopkins University's Coursera offering in Data Science: Course 9 - Developing Data Products</p>
+            <p id="pshiny"> This project was completed for Johns Hopkins University's Coursera offering in Data Science</p>
             <p id="pshiny"> the dataset can be found as RStudio's gapminder <a href=" https://CRAN.R-project.org/package=gapminder">package</a> (be sure to see their <a href="https://www.gapminder.org/">site</a> for context!) </p>
             <p id="pshiny"> See the <a href="http://rpubs.com/rphardy/app_pitchf">application pitch</a> to learn how to explore the data below (or simply play with the slider and country options):
             </p>

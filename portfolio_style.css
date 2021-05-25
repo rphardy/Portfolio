@@ -125,6 +125,28 @@ p.album {
     text-align:left;
     justify-self:start;
 }
+
+p.represres{
+    grid-area:result;
+    text-align:span;
+}
+p.fig1text1{
+    grid-area:text11;
+}
+p.fig1text2{
+    grid-area:text12;
+}
+p.fig1text3{
+    grid-area:text13;
+}
+
+p.fig2text1{
+    grid-area:text21;
+}
+p.fig2text2{
+    grid-area:text22;
+}
+
 img.doge {
     object-fit:contain;
     padding: 10px;
@@ -134,7 +156,19 @@ img.doge {
     margin-right: auto;
     width: 50%;
   }
-  
+
+img.imgrepreshealth {
+    object-fit:contain;
+    grid-area:image1;
+    height:500px;
+  }
+
+img.imgrepresproperty {
+    object-fit:contain;
+    grid-area:image2;
+    height:500px;
+  }
+
  section.projectframe {
      background: rgba(122, 3, 3, 0.74);
      margin-left:10%;
@@ -143,3 +177,21 @@ img.doge {
      margin-top: 5%;
      margin-bottom:5%;
  }
+
+ section.findings {
+    display:grid;
+    grid-template-areas:
+    'result result' 
+    'text11 text11'
+    'image1 text12'
+    'image1 text13'
+    'text21 text21'
+    'image2 text22';
+    grid-gap: 10px;
+    background:slategrey;
+    margin-top: 5%;
+    margin-left:20%;
+    margin-bottom:5%;
+    margin-right:20%;
+    padding:10px;
+}
