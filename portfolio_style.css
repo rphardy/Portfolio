@@ -3,7 +3,7 @@
 
 header {
     display: block;
-    background: rgba(122, 3, 3, 0.74);
+    background: rgb(3, 136, 189);
     text-align: center;
     padding: 20px;
     color: white;
@@ -11,7 +11,7 @@ header {
 }
 footer {
     display: block;
-    background: rgba(122, 3, 3, 0.74);
+    background: rgb(3, 136, 189);
     text-align: center;
     padding: 20px;
     color: white;
@@ -25,7 +25,7 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     font-size: 2em;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Architects Daughter';
     margin-block-start: 0.67em;
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
@@ -63,16 +63,8 @@ h2.projectheader {
     padding:1%;
 }
 
-#h21 {
-    color: yellow;
-}
-
-#h22 {
-    color: red;
-}
-
-h3 {
-    grid-area: h3;
+h4.h4represres {
+    grid-area: result;
     display: block;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -81,13 +73,10 @@ h3 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    text-align: center;
+    color: white;
 }
-#h31 {
-    color: yellow;
-}
-#h32 {
-    color:red;
-}
+
 p {
     display: block;
     text-align:center;
@@ -170,12 +159,14 @@ img.imgrepresproperty {
   }
 
  section.projectframe {
-     background: rgba(122, 3, 3, 0.74);
+     background: rgb(112, 7, 7);
      margin-left:10%;
      margin-right:10%;
      padding: 10px;
      margin-top: 5%;
      margin-bottom:5%;
+     border-style: solid;
+     border-color: rgb(123, 224, 255);
  }
 
  section.findings {
@@ -188,12 +179,19 @@ img.imgrepresproperty {
     'text21 text21'
     'image2 text22';
     grid-gap: 10px;
-    background:slategrey;
+    background: rgb(21, 23, 26);
     margin-top: 5%;
     margin-left:20%;
     margin-bottom:5%;
     margin-right:20%;
     padding:10px;
+    border-style: solid;
+    border-color: rgb(123, 224, 255);
+}
+
+iframe.shiny{
+    border-style: solid;
+    border-color: rgb(123, 224, 255);
 }
 
 object.madbeds {

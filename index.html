@@ -44,31 +44,32 @@
         <header>R Hardy BHSc, MBiostats</header>
 
         <h1>Welcome to my portfolio!</h1><!-- title & paragraph-->
-        <p class="pmsg">Here you'll find selected examples of my early work in learning various tools and methods in data sciencce / data analytics.
+        <p class="pmsg">Here you'll find selected examples of my early work in learning various tools and methods in data science / data analytics.
         <p class="pmsg">  This site was coded from the ground up using html and CSS during my time at <a href="https://www.inco.org.au/get-into-tech">INCO Academy</a> Australia, 
           a great place to network, and to learn the basics of all things hot in tech!</p>
         </p>
 
         <section class="projectframe"> <!-- Dataset 1 -->
-          <h2 class="projectheader"> Featured Project: Reproducible Analysis</h2>
-          <p class="prepres"> This project was completed for Johns Hopkins University's Coursera offering in Data Science. It answers the research question...</p>
+          <h2 class="projectheader"> Featured Project: Reproducible Analysis using real-world data</h2>
+          <p class="prepres"> This project was completed for Johns Hopkins University's Coursera offering in Data Science. </p>
+          <p class="prepres"> It addresses the research question...</p>
           <p class="prepres"> Out of the 50 severe weather events classified by the NOAA, which are the most damaging to health and wealth at the national level (USA)?</p>
           <section class ="findings">
-            <p class="prepresres"> ANALYSIS RESULTS</p>          
+            <h4 class="h4represres"> Results of Analysis</h4>          
             <img class="imgrepreshealth" src="healthdamage.png">
-            <p class="fig1text1"> Top 10 injury and fatality totals by weather event type between January 1996 and November 2011, across the USA </p>
-            <p class="fig1text2"> Plot A: Tornadoes, Excessive Heat and (Flash) Floods are the most (deadly) injurious</p>
-            <p class="fig1text3"> Plot B: Displays the same data, on the log scale</p>  
+            <p class="fig1text1"> The top 3 injury and fatality causing weather event types across the USA are: Tornadoes, Heatwaves and Floods </p>
+            <p class="fig1text2"> Plot A: Showing Tornadoes, Excessive Heat and (Flash) Floods being the most (deadly) injurious</p>
+            <p class="fig1text3"> Plot B: Showing the same scatterplot, with results on the log scale</p>  
             <img class="imgrepresproperty" src="propertydamage.png">
-            <p class="fig2text1"> Top 10 crop and property damage costs by weather event type between January 1996 and November 2011 across the USA
+            <p class="fig2text1"> The top 3 damage causing weather events across the USA are: Floods, Hurricanes and Storm/Tide Surges
             <p class="fig2text2"> 
-              Floods, Hurricanes and Storm/Tide Surges are the most damaging to property, and Drought is the most damaging to crops.   
-              In general, property damage costs far outweigh crop damage costs
+              Plot A: Showing Floods, Hurricanes and Storm/Tide Surges being the most damaging to property, with Drought the most damaging to crops.   
+              In general, property damage costs far exceed crop damage costs
             </p>
           </section>
-          <p> This analysis suggests that the US government, if wishing to allocate resources to prevent the greatest damage to population health arising from weather events, should focus on Tornadoes,
-            Flooding, and Excessive Heat. If wishing to allocate resources to prevent the greatest damage to crops and property, they should focus on Drought, Floods, Hurricanes and Storm/Tide surges.
-          </p>
+          <p> This analysis suggests that if wishing to allocate resources to prevent the greatest damage to population health arising from weather events, focus should be on Tornadoes,
+          Flooding, and Excessive Heat.</p> 
+          <p>If wishing to allocate resources to prevent the greatest damage to crops and property, focus should be on Drought, Floods, Hurricanes and Storm/Tide surges.</p>
           <p>See the <a href="reproducibleresearch.html">Reproducible Research tab</a> for the complete analysis completed in RStudio</p>
        </section>
 
@@ -80,7 +81,7 @@
             <p id="pshiny"> the dataset can be found as RStudio's gapminder <a href=" https://CRAN.R-project.org/package=gapminder">package</a> (be sure to see their <a href="https://www.gapminder.org/">site</a> for context!) </p>
             <p id="pshiny"> See the <a href="http://rpubs.com/rphardy/app_pitchf">application pitch</a> to learn how to explore the data below (or simply play with the slider and country options):
             </p>
-            <iframe height="1200" width="100%" frameborder="yes" src="https://rphardy.shinyapps.io/shinyapp/"> </iframe>
+            <iframe class="shiny" height="1200" width="100%" frameborder="yes" src="https://rphardy.shinyapps.io/shinyapp/"> </iframe>
         </section>
         
         <footer>More to come!</footer>
